@@ -9,6 +9,7 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 3. Now examine the partially implemented `ElevensBoard.java` file found in this repository. Does the `ElevensBoard` class contain all the state and behavior necessary to play the game?
 
 4. `ElevensBoard.java` contains three helper methods. These helper methods are private because they are only called from the ElevensBoard class.
+
 a. Where is the `dealMyCards` method called in ElevensBoard?
 
 b. Which `public` methods should call the `containsPairSum11` and `containsJQK` methods?
