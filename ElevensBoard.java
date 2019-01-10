@@ -97,7 +97,11 @@ public class ElevensBoard {
 	 * @param k the index of the card to be dealt.
 	 */
 	public void deal(int k) {
-		cards[k] = deck.deal();
+		if (deck.isEmpty()) {
+			cards[k] = null;
+		} else {
+			cards[k] = deck.deal();
+		}
 	}
 
 	/**
@@ -138,7 +142,7 @@ public class ElevensBoard {
 		List<Integer> selected = new ArrayList<Integer>();
 		for (int k = 0; k < cards.length; k++) {
 			if (cards[k] != null) {
-				selected.add(new Integer(k));
+				selected.add(k);
 			}
 		}
 		return selected;
