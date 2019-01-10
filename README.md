@@ -32,6 +32,7 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 |:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
 | J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
 
+  * 
     * returned list
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
