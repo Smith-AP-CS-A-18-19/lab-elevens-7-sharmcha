@@ -16,17 +16,17 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 
   * c. It’s important to understand how the `cardIndexes` method works, and how the list that it returns is used. Suppose that `cards` contains the elements shown below. Trace the execution of the `cardIndexes` method to determine what list will be returned. Complete the diagram below by filling in the elements of the returned list, and by showing how those values index `cards`. Note that the returned list may have less than 9 elements.
 
-`cards`
+    * `cards`
 
-| 0  | 1  |  2   | 3  |  4   |  5   | 6  | 7  |  8   |
-|:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
-| J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
+    * | 0  | 1  |  2   | 3  |  4   |  5   | 6  | 7  |  8   |
+    * |:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
+    * | J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
 
-`returned list`
+    * `returned list`
 
-| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|    |    |    |    |    |    |    |    |    |
+    * | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
+    * |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+    * |    |    |    |    |    |    |    |    |    |
 
   * d. Complete the following `printCards` method to print all of the elements of cards that are indexed by `cIndexes`.
 ```java
