@@ -18,15 +18,15 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 
     * `cards`
 
-    * | 0  | 1  |  2   | 3  |  4   |  5   | 6  | 7  |  8   |
-    * |:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
-    * | J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
+| 0  | 1  |  2   | 3  |  4   |  5   | 6  | 7  |  8   |
+|:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
+| J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
 
     * `returned list`
 
-    * | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
-    * |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-    * |    |    |    |    |    |    |    |    |    |
+| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|    |    |    |    |    |    |    |    |    |
 
   * d. Complete the following `printCards` method to print all of the elements of cards that are indexed by `cIndexes`.
 ```java
